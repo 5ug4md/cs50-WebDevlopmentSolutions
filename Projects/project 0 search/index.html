@@ -25,17 +25,39 @@
         src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
       />
       <form action="https://google.com/search">
+        <svg
+          height="21"
+          viewBox="0 0 21 21"
+          width="21"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="none"
+            fill-rule="evenodd"
+            stroke="#808080"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="8.5" cy="8.5" r="5" />
+            <path d="m17.571 17.5-5.571-5.5" />
+          </g>
+        </svg>
         <input
           type="text"
           name="q"
           class="searchbar"
           placeholder="Search......"
         /><br /><br />
-        <div class="below">
-          <input type="submit" value="Google Search" />
-          <input type="submit" value="I'm Feeling Lucky" />
-        </div>
       </form>
+      <div class="below">
+        <form action="https://www.google.com/webhp" method="get">
+          <input type="submit" value="Google Search" class="gsearch" />
+        </form>
+
+        <form action="https://www.google.com/doodles/" method="get">
+          <input type="submit" value="I'm Feeling Lucky" class="glucky" />
+        </form>
+      </div>
     </div>
   </body>
 </html>
