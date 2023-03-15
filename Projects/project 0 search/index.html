@@ -8,19 +8,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- navbar goes here -->
     <div class="navbar">
-      <a href="/images.html" class="link">Image Search</a>
-      <a href="/advanced.html" class="link">Advanced Search</a>
+      <ul class="navbarlist">
+        <li class="navlink">
+          <a href="https://google.com">Image Search</a>
+        </li>
+        <li class="navlink">
+          <a href="https://google.com">Advanced search</a>
+        </li>
+      </ul>
     </div>
-    <div class="search">
+    <!-- search bar goes here -->
+    <div class="google-search">
       <img
-        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-        alt="GoogleLogo"
-        class="googleImage"
+        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
       />
       <form action="https://google.com/search">
-        <input type="text" name="q" class="searchbar" />
-        <input type="submit" value="Google Search" />
+        <input
+          type="text"
+          name="q"
+          class="searchbar"
+          placeholder="Search......"
+        /><br /><br />
+        <div class="below">
+          <input type="submit" value="Google Search" />
+          <input type="submit" value="I'm Feeling Lucky" />
+        </div>
       </form>
     </div>
   </body>
