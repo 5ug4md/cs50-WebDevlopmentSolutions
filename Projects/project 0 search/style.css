@@ -96,6 +96,7 @@ input[type="submit"]:hover {
 .header-advanced{
   margin-left: 20px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 .blueButton{
