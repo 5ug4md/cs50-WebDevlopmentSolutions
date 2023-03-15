@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Search</title>
+    <title>Image Search</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -12,7 +12,7 @@
     <div class="navbar">
       <ul class="navbarlist">
         <li class="navlink">
-          <a href="imagessearch.html">Image Search</a>
+          <a href="index.html">Google Search</a>
         </li>
         <li class="navlink">
           <a href="advancedsearch.html">Advanced search</a>
@@ -24,7 +24,10 @@
       <img
         src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
       />
-      <form action="https://google.com/search">
+      <div class="images-text">
+        images
+      </div>
+      <form action="https://www.google.com/search?q=&tbm=isch">
         <svg
           height="21"
           viewBox="0 0 21 21"
@@ -47,17 +50,8 @@
           name="q"
           class="searchbar"
           placeholder="Search......"
-        /><br /><br />
+        />
+        <input type="hidden" name="tbm" value="isch">
       </form>
-      <div class="below">
-        <form action="https://www.google.com/webhp" method="get">
-          <input type="submit" value="Google Search" class="gsearch" />
-        </form>
-
-        <form action="https://www.google.com/doodles/" method="get">
-          <input type="submit" value="I'm Feeling Lucky" class="glucky" />
-        </form>
-      </div>
-    </div>
   </body>
 </html>
